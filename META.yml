@@ -1,0 +1,30 @@
+--- #YAML:1.0
+name: POE-Adaptor-Net-LDAP
+version: 0.01
+author:
+  - "Jonathan Steinert\r\nhachi@cpan.org"
+abstract: |-
+  POE Adaptor for using Net::LDAP in an async environment.
+license: perl
+requires:
+  Convert::ASN1: 0
+  Net::LDAP: 0.31
+  Net::LDAP::ASN: 0
+  POE: 0
+  POE::Driver::SysRW: 0
+  POE::Filter::Stream: 0
+  POE::Kernel: 0
+  POE::Session: 0
+  POE::Wheel::ReadWrite: 0
+  WeakRef: 0
+  perl: 5.6
+build_requires:
+  Module::Build: 0
+provides:
+  POE::Adaptor::Net::LDAP:
+    file: lib/POE/Adaptor/Net/LDAP.pm
+    version: 0.01
+  POE::Filter::ASN1:
+    file: lib/POE/Filter/ASN1.pm
+    version: 0.01
+generated_by: Module::Build version 0.24

@@ -1,0 +1,21 @@
+NAME
+    POE::Adaptor::Net::LDAP - POE Adaptor for using Net::LDAP in an async
+    environment.
+
+USE
+    See the included sample script for a usage start. The API for this
+    module is considered unstable at this point, however this is working at
+    this time.
+
+BUGS
+    What?
+
+AUTHOR
+    Jonathan Steinert hachi@cpan.org
+
+LICENSE
+    Copyright 2004 Jonathan Steinert (hachi@cpan.org)
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
