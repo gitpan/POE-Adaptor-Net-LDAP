@@ -5,7 +5,7 @@ lib/POE/Filter/ASN1.pm
 LICENSE
 MANIFEST
 README
-scripts/ldap.pl
+scripts/search.pl
 t/001_load.t
 Todo
 META.yml

@@ -1,6 +1,6 @@
 TODO list for Perl module POE::Adaptor::Net::LDAP
 
 - See TODO markers in the code
-- Lots of other stuff
-
-
+- Document more callback semantics
+- Implement connection canceling
+- Implement reconenction

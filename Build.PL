@@ -6,7 +6,6 @@ Module::Build->new
       license         => 'perl',
       requires	=> {
 		'perl'			=> '5.6',
-		'WeakRef'		=> 0,
 		'Net::LDAP'		=> '0.31',
 		'Net::LDAP::ASN'	=> 0,
 		'Convert::ASN1'		=> 0,
@@ -15,6 +14,7 @@ Module::Build->new
 		'POE::Session'		=> 0,
 		'POE::Kernel'		=> 0,
 		'POE::Wheel::ReadWrite'	=> 0,
+		'POE::Wheel::SocketFactory'	=> 0,
 		'POE::Driver::SysRW'	=> 0,
       },
       build_requires => {
